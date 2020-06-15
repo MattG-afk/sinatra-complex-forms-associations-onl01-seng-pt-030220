@@ -9,7 +9,7 @@ class OwnersController < ApplicationController
     @pets = Pet.all 
     
     erb :'/owners/new'
-    
+    redirect '/owners/id'
   end
   
 
