@@ -1,5 +1,5 @@
 require "pry"
-class OwnerCon
+class OwnersController
   get '/owners' do
     @owners = Owner.all
     erb :'/owners/index' 
